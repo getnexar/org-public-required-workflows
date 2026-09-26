@@ -1,0 +1,44 @@
+{
+  "checkout": {
+    "commit": "11bd71901bbe5b1630ceea73d27597364c9af683",
+    "repository": "actions/checkout",
+    "version": "v4.2.2"
+  },
+  "files": [
+    {
+      "executable": false,
+      "path": ".github/actionlint.yaml",
+      "sha256": "0339ea3f4a9192361b6239da49ee3ef33cf38ad3a18388d1e70cb474752deae2"
+    },
+    {
+      "executable": false,
+      "path": ".github/workflows/org-secret-scan.yml",
+      "sha256": "e9722b65e4d7e4d6a0fd6d0f6c539a145a9a865749dffe6613f0d6bd09622bc5"
+    },
+    {
+      "executable": false,
+      "path": "README.md",
+      "sha256": "5cee3d603d4ac67ea0165a8f76b6722d95f82f8843358d141a63097ced85a453"
+    },
+    {
+      "executable": false,
+      "path": "docs/acquisition.md",
+      "sha256": "5a2c74092d5f6c3fc5d8671ba0cf94a4b40c35d7e6b3b9bc04ba15990a5cd1cd"
+    },
+    {
+      "executable": false,
+      "path": "docs/release.md",
+      "sha256": "246f166ec11cbd49ce3743f5f62c1b5613184f2a7bec26aaac2fb082f745cb35"
+    },
+    {
+      "executable": true,
+      "path": "scripts/check_release.py",
+      "sha256": "a02280cdff3ef912cd76b823659a8d1e09b0eb658de01752dd0490db984a0d16"
+    }
+  ],
+  "gitleaks": {
+    "linux_x64_archive_sha256": "a65b5253807a68ac0cafa4414031fd740aeb55f54fb7e55f386acb52e6a840eb",
+    "version": "8.28.0"
+  },
+  "schema_version": 1
+}

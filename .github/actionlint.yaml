@@ -1,0 +1,8 @@
+# GitHub documents a job-level constant condition for cross-repository
+# required workflows.  This narrow rule exempts only that exact message in
+# this one workflow; a false condition or the same message elsewhere still
+# fails lint.
+paths:
+  .github/workflows/org-secret-scan.yml:
+    ignore:
+      - '^constant expression "true" in condition\. remove the if: section$'
